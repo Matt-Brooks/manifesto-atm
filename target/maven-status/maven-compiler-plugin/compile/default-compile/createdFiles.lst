@@ -1,0 +1,4 @@
+manifesto/atm/AtmConstants.class
+manifesto/atm/AtmModel.class
+manifesto/atm/impl/UkBankImpl.class
+manifesto/atm/AtmCommon.class
