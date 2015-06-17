@@ -11,6 +11,8 @@ public class TestUtils {
 
 		for (String string : arrayOfStrings) {
 			string = string.replaceAll("[^\\s\\w]*", "");
+			string = string.replaceAll("\n", "");
+			string = string.replaceAll("\r", "");
 			regexRemovedStrings.add(string);
 
 		}
